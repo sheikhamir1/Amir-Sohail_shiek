@@ -10,7 +10,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a
-              href="#hero"
+              href="#home"
               className="font-bold text-xl text-gray-800 dark:text-white"
             >
               <span className="text-4xl sm:text-3xl md:text-xl lg:text-3xl font-extrabold bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
@@ -27,7 +27,6 @@ const Navbar = () => {
                 "About",
                 "Projects",
                 "Technologies",
-                "Demo",
                 "Services",
                 "Contact",
               ].map((item, index) => (

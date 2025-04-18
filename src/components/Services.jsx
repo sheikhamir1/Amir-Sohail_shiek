@@ -877,7 +877,7 @@ const Services = () => {
                   </svg>
                 </a>
                 <a
-                  href="#contact"
+                  href=""
                   class="px-6 py-3 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white/10 transition-colors duration-300 flex items-center justify-center"
                   id="el-nrw8q3wu"
                 >

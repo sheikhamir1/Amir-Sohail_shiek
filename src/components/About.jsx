@@ -187,7 +187,7 @@ const About = () => {
 
               <div className="pt-6">
                 <a
-                  href="https://www.instagram.com/sheikh_fitness01/"
+                  href="https://www.linkedin.com/in/amir-sohail-shiek/"
                   className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                   target="_blank"
                   rel="noopener noreferrer"
