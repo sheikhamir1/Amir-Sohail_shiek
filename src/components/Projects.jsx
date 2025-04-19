@@ -46,7 +46,7 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100">
                   <div className="flex space-x-3">
                     <a
-                      href="https://github.com/sheikhamir1/SecureX-Backend/tree/master"
+                      href="https://github.com/sheikhamir1/Demo-Projects-Details/blob/main/AllProjectsDetail/SoilConnect.md"
                       className="bg-secondary text-white p-2 rounded-full hover:bg-blue-600 transition-colors duration-300"
                       target="_blank"
                     >
@@ -72,7 +72,7 @@ const Projects = () => {
                       </svg>
                     </a>
                     <a
-                      href="https://github.com/sheikhamir1/SecureX-Backend/tree/master"
+                      href="https://github.com/sheikhamir1/Demo-Projects-Details/blob/main/AllProjectsDetail/SoilConnect.md"
                       className="bg-primary text-white p-2 rounded-full hover:bg-blue-900 transition-colors duration-300"
                       target="_blank"
                     >
@@ -96,32 +96,55 @@ const Projects = () => {
               </div>
               <div className="p-6 dark:bg-neutral-800">
                 <h3 className="text-xl font-bold text-primary dark:text-white mb-2">
-                  SecureX
+                  Soil Connect
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  The SecureX project allows citizens to securely store and
-                  share important government documents such as mark sheets, PAN
-                  cards, and passports in digital format. This system reduces
-                  government costs, minimizes risks of document loss, and
-                  eliminates the need for physical copies by linking documents
-                  to Aadhaar numbers. It provides services across key sectors
-                  like education, healthcare, and more, enabling users to store,
-                  update, and share documents seamlessly.
+                  <p>
+                    <strong>Soil Connect</strong> is a digital platform that
+                    connects farmers, distributors, and agencies through a
+                    comprehensive soil database and expert insights. It helps
+                    optimize agriculture with tools for soil testing,
+                    distributor matching, and data-driven decision-making.
+                  </p>
+
+                  <h2>Highlights:</h2>
+                  <ul>
+                    <li>Interactive soil database</li>
+                    <li>Crop-specific recommendations</li>
+                    <li>Distributor search & map</li>
+                    <li>Downloadable reports & analytics</li>
+                  </ul>
+
+                  <h2>Impact:</h2>
+                  <ul>
+                    <li>500+ soil samples</li>
+                    <li>100+ distributors</li>
+                    <li>Active in 32 states</li>
+                    <li>98% user satisfaction</li>
+                  </ul>
+
+                  <p>
+                    <strong>Mission:</strong> Smarter farming through better
+                    soil data.
+                  </p>
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 py-1 px-2 rounded-md">
-                    React
+                    HTML5
                   </span>
                   <span className="text-xs bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 py-1 px-2 rounded-md">
-                    Node.js
+                    Css3
                   </span>
                   <span className="text-xs bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 py-1 px-2 rounded-md">
-                    MongoDB
+                    JavaScript
+                  </span>
+                  <span className="text-xs bg-purple-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-400 py-1 px-2 rounded-md">
+                    Tailwind
                   </span>
                 </div>
                 <div className="flex justify-between items-center">
                   <a
-                    href="https://github.com/sheikhamir1/SecureX-Backend/tree/master"
+                    href="https://github.com/sheikhamir1/Demo-Projects-Details/blob/main/AllProjectsDetail/SoilConnect.md"
                     className="text-secondary text-white hover:text-blue-700 dark:hover:text-blue-400 font-medium text-sm transition-colors duration-300"
                     target="_blank"
                   >
