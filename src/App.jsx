@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import DemoProjects from "./components/DemoProjects";
 import Services from "./components/Services";
 import ClientReq from "./components/ClientReq";
+// ok update
 
 const App = () => {
   return (
