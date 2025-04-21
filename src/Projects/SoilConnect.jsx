@@ -6,20 +6,11 @@ export function SoilConnect() {
       <div className="relative h-48 bg-gray-200 dark:bg-neutral-700 overflow-hidden">
         {/* <!-- Placeholder with gradient --> */}
         <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-500 flex items-center justify-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-12 w-12 text-white"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-            />
-          </svg>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADb0lEQVR4nO2ZWWwNYRTHB60lLRoJESlCikSiiVjSWh6Q2NIXIvGAB4kmPIglQqmKtZaqF0IiHqwV4YlII6R4ICHEEkEsIRQlRKuCUn5y9LS+Xrcz39yZ27rJ/T3NnbnzP+d8833nO2fGcZIkSdImAAOAIuAa8BqoA14AFcAKoH/YBocA64CrEQYvAYuBDEudFGAN8A136oF9QM+gjvcGDqmgG2+BiRZ64pQf3gG5sTo/Gqj0YUyeSk4LWlk6ELHwBZju1/lhwKcYjFUDRyV4Q2ueOhGEamCwrfPdgWcBDf4CtgMz9TgMbgMdbALYTHiYa+e8TsuOOkhZwCydWjWWenO8nO8BfPYQkRG9DCwHxgCZQBcZHZ16p6LccwZo52K3M1BgYfuhm44IzbUYBdesIAaAExH3jNVrq4CvmopvAPuBaUB7vS5PyIvhbsaPWwiMAwZqPj8HvNRFKlloi+pkR9yTpuc/tKB5SxwDxlvYL3AL4A7BqDU2rCYMfa/9xIZytwCqCMZdQ6sJ49zzgPrNbEQLIJbcb5LvEcBuglPlFkAh8AbYCwzS7JIDHLCoX0ojtKIF0EfLgyD8maa+AXoBa4Hrmu5k4T7RTJId5f//BKDnR2gh6MZHYJcu7HRNHGWaBNbHFEAMATcR5VoasBS4qIXgD11/5cCCxqzVprgFkBAQQgA0rMFlwD1NMGeBfs7/DtBJGyXZsSOp8CuWCswGTurik2xUq8cXgBItQUZpq2jVnUVDSgop2Dyq4Ro/glOAp4TDd+C+1kMpUWxNAm5a6Jy2cVxKgR0h1vKRbDJsddPsY4Ok175ezktZfIz4UmnYy7C8R4rFyY5FKXyY+GMG0NXi/1IEzrCZOtKktAbFhk0pVdyQaTzfxvmRuiPGE3nLUSxtpfPX7h4P5xfZLlppmoOw2nTMBhpqHZnbLbHEViif4KTH4Hyli95KP2KPQwhAWsxUDztSWebqtKlz0SryMxgi/Ij/h42+nNcAJoTUrwalxLfzRhBb29j50pidNzLRlYQbeROpM4D3rez8NidMgLw4FnEm9cDCUJ0P+fWHG/KU8+LivPGyVV73ReMIMFTXTIZOO/k9VRvyDcBBbXYeAK+0HfypjcrOwJ+OfHwXk87LpMxJJGj4utKIFHqZTqJBw5cWeRKFbe1LkiRJnGb8BkrtyLJyfMarAAAAAElFTkSuQmCC"
+            alt="hand-planting-1"
+            className="text-blue-600"
+          />
         </div>
         {/* <img src="/pic1.jpg" alt="" /> */}
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100">

@@ -1,6 +1,6 @@
 import React from "react";
 
-export function FoodFusion_Demo() {
+export function BlogVerse() {
   return (
     <div
       class="bg-neutral-50 dark:bg-neutral-800 rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
@@ -53,8 +53,8 @@ export function FoodFusion_Demo() {
             id="el-0wbkqme9"
           >
             <img
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB+0lEQVR4nO2Zu04bURCG1woSSCSvECiQkCLFMw4N4VrxCKQAiecIULiY2QSLCoEMFVTIwENgCiTkmY3iIlWqJMJJnXSRrGx0TIzSrNdol91jOL801Y7O/t+emdmb5zk5OT1MvfSDeWQ9AZYWkLaRNcwywJyT9BpIa+DrbN/GF8v1ISDZz9owxsee8RYLYKn5sAvRT9mENkeRgrlIAFPzeRvEmACS4+jyYWnlbRDjgvS6R/1nP23wziG/BxoAWFo9AOS79QCktegmJj3N2yD2CpI/SDITCVCixoLlALuR5m/LiKVqq/nls7MnsQAmySYIuOuzUFfmjmfDjc1LKgfAbgeSqb8rKOvF7eYokmykm6vZ9MCL8qenJneycvkszVzMrIlJNowxYN1MNZfdFPIeyxiV9Ymdz8PIugasP6Ly/j3tri2W6yNWlVBxuznaze+Yo8Yqkh4B6YUJZD1EP1gxx7p5ljVx8NYLw0Lfi4ZhwewaWgNwM13OX3EwHbde6V3jNbLULesB/Q9EPyLJFnKwbN4vTIDfeIMsFWBtWtrEOuhTSB0Auh14qCUEOX7sAtJ2YgBk/ZYbAMuXFADkIEeAamIAeH81jqS/sjevP6e2gueJATq74OuSWTBL8+jrkpemSvRhzPx+ApKv99HYQNrurM1STe3KOzk5edbrL0bXdB99VtacAAAAAElFTkSuQmCC"
-              alt="kawaii-bread-1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACPklEQVR4nO2ZvW7UQBDHzacEVeAVoAoiM6drEA0PQANISLS8AR2ISDh4JkBDR0NBHiBPQEdBcpAZQ6QoBYjQwgOA+ErEojkOcSgkZ3vtXZ/kv7TNyTv3+3l3ba+dJF26dJmYfpofB5IMWLaAdAdZXdH2T6HUHUwiwb8oA72XAJI+CS4BJFlV+F0C9ltoCWDZqlUgtASUnPOFBEJKoAf8vgK/21LjEg0LuMYlAgi4RiUCCbjGJAIKuEYkAgu42iV8Ba4uLx/6W0u+F+pHNV5ifQX6lJ/6UwtYF4NLoKcAktzxhogpAKRfkOT81ArgSAJIF3r3Xp0eXxNTI+Ax/X52AhhtBOQlkFyfuhEA0h1bL625D5SDlx9zmVyx/+0/zo8A6zySvgXWbSR9b7vDcw8Hx1opAGPwZ+9vnADW1f8ex7paSiIOvOQTptlCawSgJPyoz7tWCEAF+GEj+RZdoDI8D9ubqAKe8A4pvxVNwB9eVuwSG0XAblK9RblmdSFdnwFWKVnj9Ww6OFkYvk6BKPCWqYa3eMOzbvvMeSBV65dUTQ0CN6PBWzzhP86mm0cvpM8OA+kgOHwNI/DIagCvXY4C7/t6HTi/aDXsZVUUeJ8PHMD61T5PJc4dAJIPUeAtwHq30giQPLX+c5n0isJDuj6T1B3bPOy1udh/BOTG6ATMR4Mfl0CW1J7Di64JyNbOWF97dpkwUiuNwvsGWT7tPuPDNbEEWX7JLrFJm4MkD5DkM7I8R5LbtiZsYcfm6pLUlF8EzvHZnSbWrgAAAABJRU5ErkJggg=="
+              alt="edit-file"
             />
           </div>
         </div>
@@ -65,7 +65,7 @@ export function FoodFusion_Demo() {
             class="text-xl font-bold text-neutral-800 dark:text-white"
             id="el-3j7h2sfg"
           >
-            Food Fusion Restaurants
+            Blog Verse
           </h3>
           <span
             class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300"
@@ -75,8 +75,12 @@ export function FoodFusion_Demo() {
           </span>
         </div>
         <p class="text-neutral-600 dark:text-neutral-400 mb-4" id="el-6x6wo5qi">
-          <strong>FoodFusion</strong> is a sleek food delivery web app for
-          browsing and ordering meals from local restaurants.
+          <p>
+            <strong>BlogVerse</strong> is a user-friendly blogging platform
+            designed for both readers and writers. It enables users to publish
+            rich-text blogs, explore trending topics, and interact through
+            comments—all in a clean, responsive UI.
+          </p>
         </p>
 
         <div class="flex flex-wrap gap-2 mb-5" id="el-jnm61tpn">
@@ -96,19 +100,25 @@ export function FoodFusion_Demo() {
             class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-drdq84g6"
           >
-            Chart.js
-          </span>
-          <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
-            id="el-nigc1ym1"
-          >
-            Tailwind CSS
-          </span>
-          <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
-            id="el-nigc1ym1"
-          >
             JavaScript
+          </span>
+          <span
+            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            id="el-nigc1ym1"
+          >
+            Font Awesome
+          </span>
+          <span
+            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            id="el-nigc1ym1"
+          >
+            Google Font
+          </span>
+          <span
+            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            id="el-nigc1ym1"
+          >
+            Typography
           </span>
         </div>
 
@@ -117,7 +127,7 @@ export function FoodFusion_Demo() {
           id="el-js80xn5d"
         >
           <a
-            href="https://www.foodfusion.amirsohailshiek.in/"
+            href="https://www.blogverse.amirsohailshiek.in/"
             target="_blank"
             class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline"
             id="el-ralz3b74"
@@ -148,7 +158,7 @@ export function FoodFusion_Demo() {
             Live Demo
           </a>
           <a
-            href="https://github.com/sheikhamir1/Demo-Projects-Details/blob/main/AllProjectsDetail/FoodFusion.md"
+            href="https://github.com/sheikhamir1/Demo-Projects-Details/blob/main/AllProjectsDetail/BlogVerse.md"
             target="_blank"
             rel="noopener noreferrer"
             class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-white"

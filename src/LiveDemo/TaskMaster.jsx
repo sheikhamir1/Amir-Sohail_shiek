@@ -1,6 +1,6 @@
 import React from "react";
 
-export function FoodFusion_Demo() {
+export function TaskMaster() {
   return (
     <div
       class="bg-neutral-50 dark:bg-neutral-800 rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
@@ -53,8 +53,8 @@ export function FoodFusion_Demo() {
             id="el-0wbkqme9"
           >
             <img
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB+0lEQVR4nO2Zu04bURCG1woSSCSvECiQkCLFMw4N4VrxCKQAiecIULiY2QSLCoEMFVTIwENgCiTkmY3iIlWqJMJJnXSRrGx0TIzSrNdol91jOL801Y7O/t+emdmb5zk5OT1MvfSDeWQ9AZYWkLaRNcwywJyT9BpIa+DrbN/GF8v1ISDZz9owxsee8RYLYKn5sAvRT9mENkeRgrlIAFPzeRvEmACS4+jyYWnlbRDjgvS6R/1nP23wziG/BxoAWFo9AOS79QCktegmJj3N2yD2CpI/SDITCVCixoLlALuR5m/LiKVqq/nls7MnsQAmySYIuOuzUFfmjmfDjc1LKgfAbgeSqb8rKOvF7eYokmykm6vZ9MCL8qenJneycvkszVzMrIlJNowxYN1MNZfdFPIeyxiV9Ymdz8PIugasP6Ly/j3tri2W6yNWlVBxuznaze+Yo8Yqkh4B6YUJZD1EP1gxx7p5ljVx8NYLw0Lfi4ZhwewaWgNwM13OX3EwHbde6V3jNbLULesB/Q9EPyLJFnKwbN4vTIDfeIMsFWBtWtrEOuhTSB0Auh14qCUEOX7sAtJ2YgBk/ZYbAMuXFADkIEeAamIAeH81jqS/sjevP6e2gueJATq74OuSWTBL8+jrkpemSvRhzPx+ApKv99HYQNrurM1STe3KOzk5edbrL0bXdB99VtacAAAAAElFTkSuQmCC"
-              alt="kawaii-bread-1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABj0lEQVR4nO1ZzUoDMRAO+IM/9TkKPZhAL976FD6KylYw1MxFxAfwFfoKIr1UhZkePBQR66NsUbJlbdHuT022qXY+yGU3u8yX+WbykQjBYDCc0bwdbEmgMwn4rgDHCuhj/sCxnSMBT+w3YhXQ0r1NBXifHfT8IYHujrvdjdDxCwUYLRr8FwlDp6HjFwrodUYiUUMPt7Pm2nfKYHuaBXxZSpBNPdiTBi8T/RqKs1a0oYe1on/Vr/oHORmJJzVCnaObx12fwT+VkoXBdlEGJNB5yRp58ELCrvxvNe4+ULsTSFpjGALS4MhDBrI1Xz0Bip0JhJMPJYMJKM4AsYScwBKClZYQRofXz/uzBi19nmcpssydWjaB1Lx9N2hlTF0Zc6cqz8DEvNV+GLQCU7eIuROVEuCdmEIX8Z/3QshdqM5daL1rgJiA4i5UgLwVYi+k2QsVg7sQ8D6w5keLMuThLtCbBwLUCVbIBi+cCdhLBnvZECD4fkv3dpwJpCTsZYM9r6+yJqS9YjI4sivvLXgG45/jEzzjhhnUXLhdAAAAAElFTkSuQmCC"
+              alt="clipboard-list"
             />
           </div>
         </div>
@@ -65,7 +65,7 @@ export function FoodFusion_Demo() {
             class="text-xl font-bold text-neutral-800 dark:text-white"
             id="el-3j7h2sfg"
           >
-            Food Fusion Restaurants
+            Task Master
           </h3>
           <span
             class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300"
@@ -73,10 +73,22 @@ export function FoodFusion_Demo() {
           >
             Frontend
           </span>
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            id="el-70x7bcgr"
+          >
+            Fullstack
+          </span>
         </div>
         <p class="text-neutral-600 dark:text-neutral-400 mb-4" id="el-6x6wo5qi">
-          <strong>FoodFusion</strong> is a sleek food delivery web app for
-          browsing and ordering meals from local restaurants.
+          <p>
+            <strong>Task Master</strong> is a modern task management web app
+            built with <strong>React</strong>,{" "}
+            <strong>Firebase Firestore</strong>, and{" "}
+            <strong>Context API</strong>. It enables real-time task creation,
+            deletion, completion, and restoration, with a smooth UI and Dark
+            Mode support.
+          </p>
         </p>
 
         <div class="flex flex-wrap gap-2 mb-5" id="el-jnm61tpn">
@@ -84,31 +96,37 @@ export function FoodFusion_Demo() {
             class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-xnt7elyw"
           >
-            Css3
+            React
           </span>
           <span
             class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-4blfj7fw"
           >
-            HTML
+            FireBase
           </span>
           <span
             class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-drdq84g6"
           >
-            Chart.js
+            Framer Motion
           </span>
           <span
             class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-nigc1ym1"
           >
-            Tailwind CSS
+            Lucide react
           </span>
           <span
             class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-nigc1ym1"
           >
-            JavaScript
+            React Spinners
+          </span>
+          <span
+            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            id="el-nigc1ym1"
+          >
+            Authentication
           </span>
         </div>
 
@@ -117,7 +135,7 @@ export function FoodFusion_Demo() {
           id="el-js80xn5d"
         >
           <a
-            href="https://www.foodfusion.amirsohailshiek.in/"
+            href="https://www.taskmaster.amirsohailshiek.in/"
             target="_blank"
             class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline"
             id="el-ralz3b74"
@@ -148,7 +166,7 @@ export function FoodFusion_Demo() {
             Live Demo
           </a>
           <a
-            href="https://github.com/sheikhamir1/Demo-Projects-Details/blob/main/AllProjectsDetail/FoodFusion.md"
+            href="https://github.com/sheikhamir1/Demo-Projects-Details/blob/main/AllProjectsDetail/Taskmaster.md"
             target="_blank"
             rel="noopener noreferrer"
             class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-white"

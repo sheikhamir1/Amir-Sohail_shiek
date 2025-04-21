@@ -6,20 +6,10 @@ export function FoodFusion() {
       <div className="relative h-48 bg-gray-200 dark:bg-neutral-700 overflow-hidden">
         {/* <!-- Placeholder with gradient --> */}
         <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-12 w-12 text-white"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
-            />
-          </svg>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACCUlEQVR4nO3YPWgUQRjG8UuihULiFwiCWFhbWFlZCAoaRfzEwt7GVkREQYtErI1EsAgqWCoWioqVKGijhZhCUOzEIIQQEYwJ/mR1hOFyt9m73OZWmT8sHLvP7j7P3M68726tlkgkEolEiWA7buEJnoXfJ7CqCuZ24R6++MM3PMfOSLMJX83nHfq6aX4FPmnMBDZE2lNNdMe7FiAYO6k5dyPdMrxtoBlHb6Tbhv4yjPZiH25gLNq/EpM5IXZH2qNNNMcizcHwuF3G2k6ZP4AP0Q1/Ykt0/GpOgNfoCbqBJpo3kaY/2p/Nq0OLMd6XjXaTm45Guh3yuYjVOJ+juRA05xqd326Amzk3/Px3BakbtbI406r5Zs9rzNkwB/JGtlP8wNZWAmRredW4XdT8csypHlNFA6xXXQaKBMiKzqzqMRsXvYVCvFA9nhYyHwJk3WLVONxqEcta36pwvbD5KMQa3Omy8e+hzvxuNdoC+/EgFJOlYhxD2Ni28QZB1mEPToce6T5e4n1o9iZCZ5pt03WG5qJj2fYxnPMKD8NbWjbSR7C5Y6YTicR8sBePs+aqg6vOFB5hsFYW4b14RPlcKdzztGC+B9csHWNth8AlzKgeMxguEqDRV7SqMF0kwHCF/4GhxcyB0X9iDiywCmUrRNmMdNx8XZDB0IDlfVJslclwzfLqQCKRSCT+S34B68wc0Cpr6G8AAAAASUVORK5CYII="
+            alt="bread-and-rolling-pin"
+          ></img>
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100">
           <div className="flex space-x-3">

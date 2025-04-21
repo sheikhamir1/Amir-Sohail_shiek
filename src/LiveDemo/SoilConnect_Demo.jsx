@@ -52,22 +52,10 @@ export function SoilConnect_Demo() {
             class="w-16 h-16 rounded-full bg-blue-500/10 flex items-center justify-center"
             id="el-3earmzr5"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-8 w-8 text-blue-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              id="el-h9jjg01w"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                id="el-vpfus15m"
-              ></path>
-            </svg>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACv0lEQVR4nO1YO2gUYRBeERU7EVEEH0EiyGluZjlRC9u0WlkoKNoJtmpjsXgzm0thAiI+ohIQGwminY2IhZC7m9kQkahglQQJgjaKkUSjJ/89vORyz70ju8H9YJrdvbnv+7+Z2X9/y4oQIUKEVQNMZgBZBpB0HEm+A8lPIHmPrHeBs2iFFQfc9DZkfYQkf5A1VzXMPRI+MTKy1goTbM4eRNKPNYkvF9JvhQXoZmJA+qVp8vmQ30CS7EnJnkDJd1//sAFY3rVGvhyF/tDLgQlAFscv+QohF1ac/JGB0Y2tl06tntBvcef11mr/Y9PYbuDsWWC9AiyX7KQcA2d8U9sC0PVOdYB4ufFJLi7On2BvO5A+Nv1SZQjMAckDSKW7fAsAlvvtCcg38rl/ZcT6vJR7P8lOYJlsxjkkPenPAdaJNgW86nEyO8oCZLJUmsjystWFsHw48LkdATbJ6Zgzsb7cyPoDWY8DyYyPxZiPJ8Vunn0utwZYf7VR+09MjqKTS1bTb04gSbfmAOmz4o+ngeQekj4s7nkakR8yZVLK014Z6pKIk3e0aQGJIW+deQtX7mvsvrFuM1GQ5QWSfgKWWSB9a4gD66HKPMsF1tlLcUMXrlkrjQoCxsFh3wJYJVABNuv5+FXvsF8XgGQmUAGYTO/NXyO54c8BmQ1UgBmr5prpK2QZrOcEkC6YyWN6C1neFK8PByqg8l7C9fYB6U1DsDAMZApZniLrmYTjbVn8bMwZ3WwFgXoCVgUwEtAigLTP7D06+QbtbMg8sLo1BYSbvBaCZK6OgBAQ5MYRCcDIAY1KqCqCLg2MmpiDX138r8cokC4ETQ4bhOFYz4Hp0AvgwiFZDQFyZxUIuFW7hFLprvyZZGjJ69dEv7erpoC8C672mgfDSB5d7bWaQf7cnuS2+U4NsrGh8HE/Zcqm4cpHiGD5wl9AdQzHTZjmugAAAABJRU5ErkJggg=="
+              alt="soil"
+            />
           </div>
         </div>
       </div>
