@@ -66,7 +66,7 @@ export function BlogVerse() {
         <h3 className="text-xl font-bold text-primary dark:text-white mb-2">
           BlogVerse
         </h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">
+        <div className="text-gray-600 dark:text-gray-300 mb-4">
           <p>
             <strong>BlogVerse</strong> is a user-friendly blogging platform
             designed for both readers and writers. It enables users to publish
@@ -83,7 +83,7 @@ export function BlogVerse() {
             <li>💬 Comment system with threaded replies</li>
             <li>📱 Fully responsive and mobile-friendly design</li>
           </ul>
-        </p>
+        </div>
         <div className="flex flex-wrap gap-2 mb-4">
           <span className="text-xs bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 py-1 px-2 rounded-md">
             HTML

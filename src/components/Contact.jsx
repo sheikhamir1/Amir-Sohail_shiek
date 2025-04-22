@@ -4,30 +4,30 @@ import React, { useState } from "react";
 const Contact = () => {
   return (
     <div id="root">
-      <section id="contact" class="py-20 bg-gray-50 dark:bg-neutral-800">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="contact" className="py-20 bg-gray-50 dark:bg-neutral-800">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* <!-- Section heading --> */}
-          <div class="text-center mb-12">
-            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
               Get In Touch
             </h2>
-            <p class="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
               Have a project in mind or want to discuss potential collaboration?
               I'd love to hear from you!
             </p>
-            <div class="w-20 h-1 mx-auto bg-blue-600 dark:bg-blue-400 rounded mt-6"></div>
+            <div className="w-20 h-1 mx-auto bg-blue-600 dark:bg-blue-400 rounded mt-6"></div>
           </div>
 
-          <div class="flex flex-col lg:flex-row gap-12">
+          <div className="flex flex-col lg:flex-row gap-12">
             {/* <!-- Contact form --> */}
-            <div class="w-full lg:w-2/3 bg-white dark:bg-neutral-900 rounded-xl shadow-md overflow-hidden">
-              <div class="p-8">
-                <form class="space-y-6">
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="w-full lg:w-2/3 bg-white dark:bg-neutral-900 rounded-xl shadow-md overflow-hidden">
+              <div className="p-8">
+                <form className="space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label
-                        for="name"
-                        class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                        htmlFor="name"
+                        className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
                       >
                         Your Name
                       </label>
@@ -36,14 +36,14 @@ const Contact = () => {
                         id="name"
                         name="name"
                         placeholder="John Doe"
-                        class="w-full px-4 py-3 border border-gray-300 dark:border-neutral-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-neutral-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 transition duration-300"
+                        className="w-full px-4 py-3 border border-gray-300 dark:border-neutral-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-neutral-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 transition duration-300"
                         required
                       />
                     </div>
                     <div>
                       <label
-                        for="email"
-                        class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                        htmlFor="email"
+                        className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
                       >
                         Email Address
                       </label>
@@ -52,7 +52,7 @@ const Contact = () => {
                         id="email"
                         name="email"
                         placeholder="john@example.com"
-                        class="w-full px-4 py-3 border border-gray-300 dark:border-neutral-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-neutral-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 transition duration-300"
+                        className="w-full px-4 py-3 border border-gray-300 dark:border-neutral-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-neutral-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 transition duration-300"
                         required
                       />
                     </div>
@@ -60,8 +60,8 @@ const Contact = () => {
 
                   <div>
                     <label
-                      for="subject"
-                      class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                      htmlFor="subject"
+                      className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
                     >
                       Subject
                     </label>
@@ -70,15 +70,15 @@ const Contact = () => {
                       id="subject"
                       name="subject"
                       placeholder="Project Inquiry"
-                      class="w-full px-4 py-3 border border-gray-300 dark:border-neutral-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-neutral-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 transition duration-300"
+                      className="w-full px-4 py-3 border border-gray-300 dark:border-neutral-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-neutral-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 transition duration-300"
                       required
                     />
                   </div>
 
                   <div>
                     <label
-                      for="message"
-                      class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                      htmlFor="message"
+                      className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
                     >
                       Your Message
                     </label>
@@ -87,7 +87,7 @@ const Contact = () => {
                       name="message"
                       rows="6"
                       placeholder="Tell me about your project or inquiry..."
-                      class="w-full px-4 py-3 border border-gray-300 dark:border-neutral-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-neutral-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 transition duration-300"
+                      className="w-full px-4 py-3 border border-gray-300 dark:border-neutral-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-neutral-800 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 transition duration-300"
                       required
                     ></textarea>
                   </div>
@@ -95,19 +95,19 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      class="w-full md:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-center"
+                      className="w-full md:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-center"
                     >
                       <svg
-                        class="w-5 h-5 mr-2"
+                        className="w-5 h-5 mr-2"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                         ></path>
                       </svg>
@@ -119,108 +119,108 @@ const Contact = () => {
             </div>
 
             {/* <!-- Contact info and socials --> */}
-            <div class="w-full lg:w-1/3 space-y-8">
+            <div className="w-full lg:w-1/3 space-y-8">
               {/* <!-- Contact info --> */}
-              <div class="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-8">
-                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-6">
+              <div className="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-8">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6">
                   Contact Information
                 </h3>
 
-                <div class="space-y-6">
-                  <div class="flex items-start">
-                    <div class="flex-shrink-0 mt-1">
-                      <div class="flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400">
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 mt-1">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400">
                         <svg
-                          class="w-5 h-5"
+                          className="w-5 h-5"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                           ></path>
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-4">
-                      <h4 class="text-md font-medium text-gray-900 dark:text-white">
+                    <div className="ml-4">
+                      <h4 className="text-md font-medium text-gray-900 dark:text-white">
                         Email
                       </h4>
                       <a
                         href="mailto:contact@yourname.com"
-                        class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+                        className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
                       >
                         contact@yourname.com
                       </a>
                     </div>
                   </div>
 
-                  <div class="flex items-start">
-                    <div class="flex-shrink-0 mt-1">
-                      <div class="flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400">
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 mt-1">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400">
                         <svg
-                          class="w-5 h-5"
+                          className="w-5 h-5"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                           ></path>
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-4">
-                      <h4 class="text-md font-medium text-gray-900 dark:text-white">
+                    <div className="ml-4">
+                      <h4 className="text-md font-medium text-gray-900 dark:text-white">
                         Phone
                       </h4>
                       <a
                         href="tel:+11234567890"
-                        class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+                        className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
                       >
                         +1 (123) 456-7890
                       </a>
                     </div>
                   </div>
 
-                  <div class="flex items-start">
-                    <div class="flex-shrink-0 mt-1">
-                      <div class="flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400">
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 mt-1">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400">
                         <svg
-                          class="w-5 h-5"
+                          className="w-5 h-5"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
                           ></path>
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                           ></path>
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-4">
-                      <h4 class="text-md font-medium text-gray-900 dark:text-white">
+                    <div className="ml-4">
+                      <h4 className="text-md font-medium text-gray-900 dark:text-white">
                         Location
                       </h4>
-                      <p class="text-gray-600 dark:text-gray-400">
+                      <p className="text-gray-600 dark:text-gray-400">
                         San Francisco, CA, United States
                       </p>
                     </div>
@@ -229,20 +229,20 @@ const Contact = () => {
               </div>
 
               {/* <!-- Social links --> */}
-              <div class="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-8">
-                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-6">
+              <div className="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-8">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6">
                   Follow Me
                 </h3>
 
-                <div class="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-4">
                   <a
                     href="#"
-                    class="flex items-center p-3 bg-gray-50 dark:bg-neutral-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors duration-300"
+                    className="flex items-center p-3 bg-gray-50 dark:bg-neutral-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors duration-300"
                   >
-                    <div class="flex-shrink-0">
-                      <div class="flex items-center justify-center w-10 h-10 rounded-full bg-[#1DA1F2]/10 text-[#1DA1F2]">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-[#1DA1F2]/10 text-[#1DA1F2]">
                         <svg
-                          class="w-5 h-5"
+                          className="w-5 h-5"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
@@ -251,8 +251,8 @@ const Contact = () => {
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-3">
-                      <p class="text-sm font-medium text-gray-900 dark:text-white">
+                    <div className="ml-3">
+                      <p className="text-sm font-medium text-gray-900 dark:text-white">
                         Twitter
                       </p>
                     </div>
@@ -260,12 +260,12 @@ const Contact = () => {
 
                   <a
                     href="#"
-                    class="flex items-center p-3 bg-gray-50 dark:bg-neutral-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors duration-300"
+                    className="flex items-center p-3 bg-gray-50 dark:bg-neutral-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors duration-300"
                   >
-                    <div class="flex-shrink-0">
-                      <div class="flex items-center justify-center w-10 h-10 rounded-full bg-[#0A66C2]/10 text-[#0A66C2]">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-[#0A66C2]/10 text-[#0A66C2]">
                         <svg
-                          class="w-5 h-5"
+                          className="w-5 h-5"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
@@ -274,8 +274,8 @@ const Contact = () => {
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-3">
-                      <p class="text-sm font-medium text-gray-900 dark:text-white">
+                    <div className="ml-3">
+                      <p className="text-sm font-medium text-gray-900 dark:text-white">
                         LinkedIn
                       </p>
                     </div>
@@ -283,12 +283,12 @@ const Contact = () => {
 
                   <a
                     href="#"
-                    class="flex items-center p-3 bg-gray-50 dark:bg-neutral-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors duration-300"
+                    className="flex items-center p-3 bg-gray-50 dark:bg-neutral-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors duration-300"
                   >
-                    <div class="flex-shrink-0">
-                      <div class="flex items-center justify-center w-10 h-10 rounded-full bg-[#171515]/10 text-[#171515] dark:text-white">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-[#171515]/10 text-[#171515] dark:text-white">
                         <svg
-                          class="w-5 h-5"
+                          className="w-5 h-5"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
@@ -297,8 +297,8 @@ const Contact = () => {
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-3">
-                      <p class="text-sm font-medium text-gray-900 dark:text-white">
+                    <div className="ml-3">
+                      <p className="text-sm font-medium text-gray-900 dark:text-white">
                         GitHub
                       </p>
                     </div>
@@ -306,12 +306,12 @@ const Contact = () => {
 
                   <a
                     href="#"
-                    class="flex items-center p-3 bg-gray-50 dark:bg-neutral-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors duration-300"
+                    className="flex items-center p-3 bg-gray-50 dark:bg-neutral-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 transition-colors duration-300"
                   >
-                    <div class="flex-shrink-0">
-                      <div class="flex items-center justify-center w-10 h-10 rounded-full bg-[#EA4C89]/10 text-[#EA4C89]">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-[#EA4C89]/10 text-[#EA4C89]">
                         <svg
-                          class="w-5 h-5"
+                          className="w-5 h-5"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
@@ -320,8 +320,8 @@ const Contact = () => {
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-3">
-                      <p class="text-sm font-medium text-gray-900 dark:text-white">
+                    <div className="ml-3">
+                      <p className="text-sm font-medium text-gray-900 dark:text-white">
                         Dribbble
                       </p>
                     </div>
@@ -330,32 +330,32 @@ const Contact = () => {
               </div>
 
               {/* <!-- Availability --> */}
-              <div class="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-8">
-                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-6">
+              <div className="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-8">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6">
                   Availability
                 </h3>
 
-                <div class="flex items-center mb-4">
-                  <div class="w-3 h-3 bg-green-500 rounded-full mr-3 pulse-animation"></div>
-                  <p class="text-gray-700 dark:text-gray-300">
+                <div className="flex items-center mb-4">
+                  <div className="w-3 h-3 bg-green-500 rounded-full mr-3 pulse-animation"></div>
+                  <p className="text-gray-700 dark:text-gray-300">
                     Currently available for freelance work
                   </p>
                 </div>
 
-                <div class="flex flex-col space-y-2">
-                  <div class="flex items-center justify-between">
-                    <span class="text-gray-600 dark:text-gray-400">
+                <div className="flex flex-col space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-gray-600 dark:text-gray-400">
                       Response Time:
                     </span>
-                    <span class="text-gray-900 dark:text-white font-medium">
+                    <span className="text-gray-900 dark:text-white font-medium">
                       Within 24 hours
                     </span>
                   </div>
-                  <div class="flex items-center justify-between">
-                    <span class="text-gray-600 dark:text-gray-400">
+                  <div className="flex items-center justify-between">
+                    <span className="text-gray-600 dark:text-gray-400">
                       Working Hours:
                     </span>
-                    <span class="text-gray-900 dark:text-white font-medium">
+                    <span className="text-gray-900 dark:text-white font-medium">
                       9:00 AM - 6:00 PM PST
                     </span>
                   </div>
@@ -365,28 +365,28 @@ const Contact = () => {
           </div>
 
           {/* <!-- FAQ section --> */}
-          <div class="mt-16">
-            <h3 class="text-2xl font-bold text-gray-900 dark:text-white text-center mb-8">
+          <div className="mt-16">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white text-center mb-8">
               Frequently Asked Questions
             </h3>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              <div class="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-6">
-                <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              <div className="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
                   What services do you offer?
                 </h4>
-                <p class="text-gray-600 dark:text-gray-400">
+                <p className="text-gray-600 dark:text-gray-400">
                   I specialize in web development, including responsive
                   websites, web applications, e-commerce solutions, and UI/UX
                   design. I can help with both frontend and backend development.
                 </p>
               </div>
 
-              <div class="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-6">
-                <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">
+              <div className="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
                   What is your typical project timeline?
                 </h4>
-                <p class="text-gray-600 dark:text-gray-400">
+                <p className="text-gray-600 dark:text-gray-400">
                   Project timelines vary based on complexity. A simple website
                   might take 2-3 weeks, while more complex applications can take
                   2-3 months. I'll provide a detailed timeline during our
@@ -394,22 +394,22 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div class="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-6">
-                <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">
+              <div className="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
                   How do you handle project pricing?
                 </h4>
-                <p class="text-gray-600 dark:text-gray-400">
+                <p className="text-gray-600 dark:text-gray-400">
                   I offer both fixed-price and hourly rate options. After
                   understanding your project requirements, I'll recommend the
                   most suitable approach and provide a transparent quote.
                 </p>
               </div>
 
-              <div class="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-6">
-                <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">
+              <div className="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
                   Do you offer ongoing maintenance?
                 </h4>
-                <p class="text-gray-600 dark:text-gray-400">
+                <p className="text-gray-600 dark:text-gray-400">
                   Yes, I offer ongoing maintenance and support services to
                   ensure your website or application continues to function
                   optimally. We can discuss maintenance packages based on your

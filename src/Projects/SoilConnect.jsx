@@ -68,7 +68,7 @@ export function SoilConnect() {
         <h3 className="text-xl font-bold text-primary dark:text-white mb-2">
           Soil Connect
         </h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">
+        <div className="text-gray-600 dark:text-gray-300 mb-4">
           <p>
             <strong>Soil Connect</strong> is a digital platform that connects
             farmers, distributors, and agencies through a comprehensive soil
@@ -96,7 +96,7 @@ export function SoilConnect() {
           <p>
             <strong>Mission:</strong> Smarter farming through better soil data.
           </p>
-        </p>
+        </div>
         <div className="flex flex-wrap gap-2 mb-4">
           <span className="text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 py-1 px-2 rounded-md">
             HTML5

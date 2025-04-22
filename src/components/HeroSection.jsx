@@ -54,11 +54,11 @@ const HeroSection = () => {
                   Contact Me
                 </a>
                 <a
-                  href="#projects"
+                  href="#demo-projects"
                   className="px-6 py-3 bg-transparent border-2 border-blue-500 hover:bg-blue-500/20 rounded-lg font-medium transition-colors duration-300"
                   id="el-eof9ycvy"
                 >
-                  View Projects
+                  Live Projects
                 </a>
                 <a
                   href="https://github.com/sheikhamir1"

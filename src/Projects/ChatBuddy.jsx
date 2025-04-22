@@ -66,8 +66,8 @@ export function ChatBuddy() {
         <h3 className="text-xl font-bold text-primary dark:text-white mb-2">
           Chat Buddy
         </h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">
-          <p class="tagline">
+        <div className="text-gray-600 dark:text-gray-300 mb-4">
+          <p className="tagline">
             Real-time global chat app built with modern web tech.
           </p>
 
@@ -89,7 +89,7 @@ export function ChatBuddy() {
               Socket.IO, Cloudinary, Google OAuth
             </li>
           </ul>
-        </p>
+        </div>
         <div className="flex flex-wrap gap-2 mb-4">
           <span className="text-xs bg-gray-100 dark:bg-gray-900/30 text-gray-600 dark:text-gray-400 py-1 px-2 rounded-md">
             React

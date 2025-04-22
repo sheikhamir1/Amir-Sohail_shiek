@@ -66,7 +66,7 @@ export function FoodFusion() {
         <h3 className="text-xl font-bold text-primary dark:text-white mb-2">
           Food Fusion
         </h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">
+        <div className="text-gray-600 dark:text-gray-300 mb-4">
           <p>
             <strong>FoodFusion</strong> is a modern, responsive food delivery
             platform that lets users <strong>browse</strong>,{" "}
@@ -104,7 +104,7 @@ export function FoodFusion() {
               and promotions
             </li>
           </ul>
-        </p>
+        </div>
         <div className="flex flex-wrap gap-2 mb-4">
           <span className="text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 py-1 px-2 rounded-md">
             HTML5

@@ -3,41 +3,41 @@ import React from "react";
 export function FoodFusion_Demo() {
   return (
     <div
-      class="bg-neutral-50 dark:bg-neutral-800 rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+      className="bg-neutral-50 dark:bg-neutral-800 rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
       data-category="frontend"
       id="el-rccvkw9w"
     >
       <div
-        class="relative h-56 bg-neutral-200 dark:bg-neutral-700 overflow-hidden"
+        className="relative h-56 bg-neutral-200 dark:bg-neutral-700 overflow-hidden"
         id="el-b8oqmyjj"
       >
         <div
-          class="absolute inset-0 flex items-center justify-center bg-blue-600/80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          className="absolute inset-0 flex items-center justify-center bg-blue-600/80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           id="el-itip5m05"
         >
-          <div class="text-center p-4" id="el-gs7yjzj2">
-            <p class="font-bold mb-2" id="el-89j4v7c1">
+          <div className="text-center p-4" id="el-gs7yjzj2">
+            <p className="font-bold mb-2" id="el-89j4v7c1">
               View Demo
             </p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-8 w-8 mx-auto"
+              className="h-8 w-8 mx-auto"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
               id="el-0x4walpl"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                 id="el-s85140rb"
               ></path>
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                 id="el-ie1ds3hl"
               ></path>
@@ -45,11 +45,11 @@ export function FoodFusion_Demo() {
           </div>
         </div>
         <div
-          class="w-full h-full bg-neutral-300 dark:bg-neutral-600 flex items-center justify-center"
+          className="w-full h-full bg-neutral-300 dark:bg-neutral-600 flex items-center justify-center"
           id="el-zgdy9vmv"
         >
           <div
-            class="w-16 h-16 rounded-full bg-blue-500/10 flex items-center justify-center"
+            className="w-16 h-16 rounded-full bg-blue-500/10 flex items-center justify-center"
             id="el-0wbkqme9"
           >
             <img
@@ -59,53 +59,59 @@ export function FoodFusion_Demo() {
           </div>
         </div>
       </div>
-      <div class="p-6" id="el-kqi52m2e">
-        <div class="flex justify-between items-center mb-3" id="el-5euqtp6i">
+      <div className="p-6" id="el-kqi52m2e">
+        <div
+          className="flex justify-between items-center mb-3"
+          id="el-5euqtp6i"
+        >
           <h3
-            class="text-xl font-bold text-neutral-800 dark:text-white"
+            className="text-xl font-bold text-neutral-800 dark:text-white"
             id="el-3j7h2sfg"
           >
             Food Fusion Restaurants
           </h3>
           <span
-            class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+            className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300"
             id="el-70x7bcgr"
           >
             Frontend
           </span>
         </div>
-        <p class="text-neutral-600 dark:text-neutral-400 mb-4" id="el-6x6wo5qi">
+        <div
+          className="text-neutral-600 dark:text-neutral-400 mb-4"
+          id="el-6x6wo5qi"
+        >
           <strong>FoodFusion</strong> is a sleek food delivery web app for
           browsing and ordering meals from local restaurants.
-        </p>
+        </div>
 
-        <div class="flex flex-wrap gap-2 mb-5" id="el-jnm61tpn">
+        <div className="flex flex-wrap gap-2 mb-5" id="el-jnm61tpn">
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-xnt7elyw"
           >
             Css3
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-4blfj7fw"
           >
             HTML
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-drdq84g6"
           >
             Chart.js
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-nigc1ym1"
           >
             Tailwind CSS
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-nigc1ym1"
           >
             JavaScript
@@ -113,34 +119,34 @@ export function FoodFusion_Demo() {
         </div>
 
         <div
-          class="flex justify-between items-center pt-4 border-t border-neutral-200 dark:border-neutral-700"
+          className="flex justify-between items-center pt-4 border-t border-neutral-200 dark:border-neutral-700"
           id="el-js80xn5d"
         >
           <a
             href="https://www.foodfusion.amirsohailshiek.in/"
             target="_blank"
-            class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline"
+            className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline"
             id="el-ralz3b74"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 mr-1"
+              className="h-5 w-5 mr-1"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
               id="el-c9744pvp"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                 id="el-ypngq9ik"
               ></path>
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                 id="el-vvuraxvo"
               ></path>
@@ -151,12 +157,12 @@ export function FoodFusion_Demo() {
             href="https://github.com/sheikhamir1/Demo-Projects-Details/blob/main/AllProjectsDetail/FoodFusion.md"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-white"
+            className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-white"
             id="el-nedb96d5"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               fill="currentColor"
               viewBox="0 0 24 24"
               id="el-amulmuk7"

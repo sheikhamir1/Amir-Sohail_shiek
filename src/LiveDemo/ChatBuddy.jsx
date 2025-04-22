@@ -3,41 +3,41 @@ import React from "react";
 export function ChatBuddy() {
   return (
     <div
-      class="bg-neutral-50 dark:bg-neutral-800 rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+      className="bg-neutral-50 dark:bg-neutral-800 rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
       data-category="backend"
       id="el-xddkp6cp"
     >
       <div
-        class="relative h-56 bg-neutral-200 dark:bg-neutral-700 overflow-hidden"
+        className="relative h-56 bg-neutral-200 dark:bg-neutral-700 overflow-hidden"
         id="el-alo9nw00"
       >
         <div
-          class="absolute inset-0 flex items-center justify-center bg-green-600/80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          className="absolute inset-0 flex items-center justify-center bg-green-600/80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           id="el-17dhqlbw"
         >
-          <div class="text-center p-4" id="el-yynbqx8n">
-            <p class="font-bold mb-2" id="el-kyw0ism1">
+          <div className="text-center p-4" id="el-yynbqx8n">
+            <p className="font-bold mb-2" id="el-kyw0ism1">
               View Demo
             </p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-8 w-8 mx-auto"
+              className="h-8 w-8 mx-auto"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
               id="el-6xveputa"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                 id="el-x0h6oxgh"
               ></path>
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                 id="el-3fx8w8o9"
               ></path>
@@ -45,11 +45,11 @@ export function ChatBuddy() {
           </div>
         </div>
         <div
-          class="w-full h-full bg-neutral-300 dark:bg-neutral-600 flex items-center justify-center"
+          className="w-full h-full bg-neutral-300 dark:bg-neutral-600 flex items-center justify-center"
           id="el-cjumf0r9"
         >
           <div
-            class="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center"
+            className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center"
             id="el-jta2dqy2"
           >
             <img
@@ -59,29 +59,35 @@ export function ChatBuddy() {
           </div>
         </div>
       </div>
-      <div class="p-6" id="el-16g5ef3x">
-        <div class="flex justify-between items-center mb-3" id="el-ys9hukpv">
+      <div className="p-6" id="el-16g5ef3x">
+        <div
+          className="flex justify-between items-center mb-3"
+          id="el-ys9hukpv"
+        >
           <h3
-            class="text-xl font-bold text-neutral-800 dark:text-white"
+            className="text-xl font-bold text-neutral-800 dark:text-white"
             id="el-x66ylp1e"
           >
             Chat Buddy
           </h3>
           <span
-            class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300"
+            className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300"
             id="el-qavdst9s"
           >
             Backend
           </span>
           <span
-            class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-green-100 text-lime-800 dark:bg-lime-900 dark:text-lime-300"
+            className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-green-100 text-lime-800 dark:bg-lime-900 dark:text-lime-300"
             id="el-qavdst9s"
           >
             FullStack
           </span>
         </div>
-        <p class="text-neutral-600 dark:text-neutral-400 mb-4" id="el-ye83h67c">
-          <p class="tagline">
+        <div
+          className="text-neutral-600 dark:text-neutral-400 mb-4"
+          id="el-ye83h67c"
+        >
+          <p className="tagline">
             Real-time global chat app built with modern web tech.
           </p>
 
@@ -91,65 +97,65 @@ export function ChatBuddy() {
             and <strong>MongoDB</strong>, it supports real-time messaging,
             Google OAuth, and over 30 themes for a fully customized experience.
           </p>
-        </p>
+        </div>
 
-        <div class="flex flex-wrap gap-2 mb-5" id="el-qbj60xzz">
+        <div className="flex flex-wrap gap-2 mb-5" id="el-qbj60xzz">
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-et8b9ouf"
           >
             React
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-rg32xchl"
           >
             Zustand
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-122is829"
           >
             React Query
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-6kg5sady"
           >
             TailwindCSS
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-6kg5sady"
           >
             DaisyUI
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-6kg5sady"
           >
             Node.js
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-6kg5sady"
           >
             Express
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-6kg5sady"
           >
             MongoDB
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-6kg5sady"
           >
             JWT
           </span>
           <span
-            class="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
+            className="text-xs px-2 py-1 rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300"
             id="el-6kg5sady"
           >
             Socket.IO
@@ -157,34 +163,34 @@ export function ChatBuddy() {
         </div>
 
         <div
-          class="flex justify-between items-center pt-4 border-t border-neutral-200 dark:border-neutral-700"
+          className="flex justify-between items-center pt-4 border-t border-neutral-200 dark:border-neutral-700"
           id="el-06f98yf0"
         >
           <a
             href="https://www.chatbuddy.amirsohailshiek.in/"
             target="_blank"
-            class="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline"
+            className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline"
             id="el-ba19m2fq"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 mr-1"
+              className="h-5 w-5 mr-1"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
               id="el-cho6wlzd"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                 id="el-kybcxeey"
               ></path>
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                 id="el-f9spdp0r"
               ></path>
@@ -195,12 +201,12 @@ export function ChatBuddy() {
             href="https://github.com/sheikhamir1/chat-buddy/tree/master"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-white"
+            className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-white"
             id="el-cujimz2w"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               fill="currentColor"
               viewBox="0 0 24 24"
               id="el-q2zk98pm"

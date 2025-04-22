@@ -6,44 +6,44 @@ const Footer = () => {
     <div id="root">
       <footer
         id="footer"
-        class="bg-gray-900 dark:bg-neutral-950 text-white pt-16 pb-8"
+        className="bg-gray-900 dark:bg-neutral-950 text-white pt-16 pb-8"
       >
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* <!-- Top Footer Section --> */}
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {/* <!-- Logo and About --> */}
-            <div class="col-span-1 lg:col-span-1">
-              <div class="flex items-center mb-4">
-                <h2 class="text-xl font-bold text-white">
-                  <span class="text-blue-500">Amir Sohail</span> Shiek
+            <div className="col-span-1 lg:col-span-1">
+              <div className="flex items-center mb-4">
+                <h2 className="text-xl font-bold text-white">
+                  <span className="text-blue-500">Amir Sohail</span> Shiek
                 </h2>
               </div>
-              <p class="text-gray-400 mb-6">
+              <p className="text-gray-400 mb-6">
                 Crafting elegant, responsive websites and web applications that
                 deliver exceptional user experiences and help businesses grow.
               </p>
-              <p class="text-gray-400 mb-6">
+              <p className="text-gray-400 mb-6">
                 Based in india, Kolkata
                 <br />
                 Available for freelance work worldwide
               </p>
-              <div class="flex space-x-4">
+              <div className="flex space-x-4">
                 <a
                   href="https://github.com/sheikhamir1"
                   target="_blank"
                   aria-label="GitHub"
-                  class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300"
+                  className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300"
                 >
                   <svg
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                 </a>
@@ -51,10 +51,10 @@ const Footer = () => {
                   href="https://www.linkedin.com/in/amir-sohail-shiek/"
                   target="_blank"
                   aria-label="LinkedIn"
-                  class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300"
+                  className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300"
                 >
                   <svg
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -67,7 +67,7 @@ const Footer = () => {
                   href="https://www.instagram.com/sheikh_fitness01/"
                   target="_blank"
                   aria-label="Dribbble"
-                  class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300"
+                  className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300"
                 >
                   <svg
                     className="w-7 h-7"
@@ -82,25 +82,27 @@ const Footer = () => {
             </div>
 
             {/* <!-- Quick Links --> */}
-            <div class="col-span-1">
-              <h3 class="text-lg font-semibold text-white mb-6">Quick Links</h3>
-              <ul class="space-y-3">
+            <div className="col-span-1">
+              <h3 className="text-lg font-semibold text-white mb-6">
+                Quick Links
+              </h3>
+              <ul className="space-y-3">
                 <li>
                   <a
                     href="#home"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -110,19 +112,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="#about"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -132,19 +134,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="#projects"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -154,19 +156,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="#technologies"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -176,19 +178,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="#services"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -198,19 +200,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="#contact"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -221,25 +223,27 @@ const Footer = () => {
             </div>
 
             {/* <!-- Services --> */}
-            <div class="col-span-1">
-              <h3 class="text-lg font-semibold text-white mb-6">Services</h3>
-              <ul class="space-y-3">
+            <div className="col-span-1">
+              <h3 className="text-lg font-semibold text-white mb-6">
+                Services
+              </h3>
+              <ul className="space-y-3">
                 <li>
                   <a
                     href="#"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -249,19 +253,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -271,19 +275,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -293,19 +297,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -315,19 +319,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
+                    className="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center"
                   >
                     <svg
-                      class="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -338,88 +342,88 @@ const Footer = () => {
             </div>
 
             {/* <!-- Contact Information --> */}
-            <div class="col-span-1">
-              <h3 class="text-lg font-semibold text-white mb-6">
+            <div className="col-span-1">
+              <h3 className="text-lg font-semibold text-white mb-6">
                 Contact Info
               </h3>
-              <ul class="space-y-4">
-                <li class="flex items-start">
-                  <div class="flex-shrink-0 mt-1">
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
                     <svg
-                      class="w-5 h-5 text-blue-500"
+                      className="w-5 h-5 text-blue-500"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       ></path>
                     </svg>
                   </div>
-                  <div class="ml-3">
+                  <div className="ml-3">
                     <a
                       href="mailto:contact@yourname.com"
-                      class="text-gray-400 hover:text-blue-500 transition-colors duration-300"
+                      className="text-gray-400 hover:text-blue-500 transition-colors duration-300"
                     >
                       amirsohail898198@gmail.com
                     </a>
                   </div>
                 </li>
-                <li class="flex items-start">
-                  <div class="flex-shrink-0 mt-1">
+                <li className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
                     <svg
-                      class="w-5 h-5 text-blue-500"
+                      className="w-5 h-5 text-blue-500"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       ></path>
                     </svg>
                   </div>
-                  <div class="ml-3">
+                  <div className="ml-3">
                     <a
                       href="tel:+11234567890"
-                      class="text-gray-400 hover:text-blue-500 transition-colors duration-300"
+                      className="text-gray-400 hover:text-blue-500 transition-colors duration-300"
                     >
                       +91 8018028827
                     </a>
                   </div>
                 </li>
-                <li class="flex items-start">
-                  <div class="flex-shrink-0 mt-1">
+                <li className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
                     <svg
-                      class="w-5 h-5 text-blue-500"
+                      className="w-5 h-5 text-blue-500"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
                       ></path>
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       ></path>
                     </svg>
                   </div>
-                  <div class="ml-3">
-                    <span class="text-gray-400">
+                  <div className="ml-3">
+                    <span className="text-gray-400">
                       kolkata , west bengal , India
                     </span>
                   </div>
@@ -427,21 +431,21 @@ const Footer = () => {
               </ul>
 
               {/* <!-- Newsletter --> */}
-              {/* <div class="mt-8">
-                <h4 class="text-white font-medium mb-2">Join my newsletter</h4>
-                <p class="text-gray-400 text-sm mb-4">
+              {/* <div className="mt-8">
+                <h4 className="text-white font-medium mb-2">Join my newsletter</h4>
+                <p className="text-gray-400 text-sm mb-4">
                   Get the latest updates and news directly to your inbox.
                 </p>
-                <form class="flex flex-col sm:flex-row gap-2">
+                <form className="flex flex-col sm:flex-row gap-2">
                   <input
                     type="email"
                     placeholder="Your email address"
-                    class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
+                    className="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
                     required
                   />
                   <button
                     type="submit"
-                    class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition duration-300 transform hover:translate-y-[-2px] focus:outline-none focus:ring-2 focus:ring-blue-400 sm:w-auto w-full"
+                    className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition duration-300 transform hover:translate-y-[-2px] focus:outline-none focus:ring-2 focus:ring-blue-400 sm:w-auto w-full"
                   >
                     Subscribe
                   </button>
@@ -451,51 +455,51 @@ const Footer = () => {
           </div>
 
           {/* <!-- Divider --> */}
-          <div class="border-t border-gray-800 my-8"></div>
+          <div className="border-t border-gray-800 my-8"></div>
 
           {/* <!-- Bottom Footer Section --> */}
-          <div class="flex flex-col md:flex-row justify-between items-center">
-            <div class="mb-4 md:mb-0">
-              <p class="text-gray-500 text-sm">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="mb-4 md:mb-0">
+              <p className="text-gray-500 text-sm">
                 &copy; 2025 Amir Sohail Shiek. All rights reserved.
               </p>
             </div>
-            {/* <div class="flex flex-wrap gap-4 text-sm text-gray-500">
+            {/* <div className="flex flex-wrap gap-4 text-sm text-gray-500">
               <a
                 href="#"
-                class="hover:text-blue-500 transition-colors duration-300"
+                className="hover:text-blue-500 transition-colors duration-300"
               >
                 Privacy Policy
               </a>
-              <span class="text-gray-700">|</span>
+              <span className="text-gray-700">|</span>
               <a
                 href="#"
-                class="hover:text-blue-500 transition-colors duration-300"
+                className="hover:text-blue-500 transition-colors duration-300"
               >
                 Terms of Service
               </a>
-              <span class="text-gray-700">|</span>
+              <span className="text-gray-700">|</span>
             </div> */}
           </div>
         </div>
 
         {/* <!-- Back to top button --> */}
         <button
-          class="fixed bottom-6 right-6 w-12 h-12 rounded-full bg-blue-600 text-white shadow-lg z-50 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300 flex items-center justify-center"
+          className="fixed bottom-6 right-6 w-12 h-12 rounded-full bg-blue-600 text-white shadow-lg z-50 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300 flex items-center justify-center"
           aria-label="Back to top"
         >
           <a href="#home">
             <svg
-              class="w-6 h-6"
+              className="w-6 h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M5 10l7-7m0 0l7 7m-7-7v18"
               ></path>
             </svg>

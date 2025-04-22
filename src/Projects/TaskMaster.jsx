@@ -66,7 +66,7 @@ export function TaskMaster() {
         <h3 className="text-xl font-bold text-primary dark:text-white mb-2">
           Task Master
         </h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">
+        <div className="text-gray-600 dark:text-gray-300 mb-4">
           <p>
             <strong>Task Master</strong> is a modern task management web app
             built with <strong>React</strong>,{" "}
@@ -89,7 +89,7 @@ export function TaskMaster() {
             <strong>Tech Stack:</strong> React, Firebase Firestore, Context API,
             Tailwind CSS
           </p>
-        </p>
+        </div>
         <div className="flex flex-wrap gap-2 mb-4">
           <span className="text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 py-1 px-2 rounded-md">
             React
